@@ -33,17 +33,17 @@
 
 ## Abstract
 
-Arbalest is a Qt-based GUI application built on top of BRL-CAD. It lets engineers load 3D geometry (.g) models and run Verification and Validation (V&V) checks on them to find issues such as broken geometry, overlaps, or invalid regions.
+Arbalest is a Qt-based GUI application built on top of BRL-CAD. This project focuses on the Verification and Validation (V&V) part of Arbalest — checking 3D geometry (.g) models for issues such as broken geometry, overlaps, or invalid regions.
  
-For this project, I worked on rebuilding Arbalest's V&V functionality as a plugin for the current version of Arbalest, which runs on MOOSE, and used BRL-CAD's `libged` commands directly to run checks.
+For this project, I worked on rebuilding Arbalest's V&V functionality as a plugin for the current version of Arbalest, which runs on MOOSE, and used `libged` commands directly to run checks.
 
 ---
 
 ## Introduction
 
-Arbalest earlier had a working V&V prototype. This prototype was written directly inside Arbalest's core code, so the V&V logic was mixed in with Arbalest's own code, and it used MGED-based commands to run its checks.
+Arbalest earlier had a working V&V prototype. This prototype was written directly inside Arbalest's core code, so the V&V logic was mixed in with Arbalest's own code, and it used MGED. While it started within Arbalest, the V&V GUI ended up becoming its own application fork over time.
  
-My focus for this project was to bring V&V functionality into the current version of Arbalest as a **plugin**, instead of writing it directly into Arbalest's core code. Since the current version of Arbalest runs on **MOOSE** and not MGED, I moved the V&V logic to use real `libged` commands directly, instead of the old MGED-based approach.
+My focus for this project was to separate the V&V domain logic out of Arbalest's core code and bring it into the current version of Arbalest as a **plugin**, instead of it being written directly into Arbalest's core code. As part of this, the V&V logic was also migrated from the old MGED-based approach to work with the current MOOSE-based Arbalest.
  
 ---
  
@@ -186,8 +186,7 @@ The major contributions made during the project are summarized below.
             <td>July 1, 2026</td>
             <td><a href="https://github.com/BRL-CAD/arbalest/pull/77"> [BRL-CAD/arbalest/PR#77]</a></td>
             <td>Merged</td>
-            <td>Add V&V plugin with MOOSE CommandString integration
-</td>
+            <td>Add V&V plugin with MOOSE CommandString integration</td>
         </tr>
         
   
@@ -216,9 +215,7 @@ The work completed during the project provides a foundation for further improvem
 
 ## Acknowledgements
 
-I would like to sincerely thank my mentors, the BRL-CAD community, and everyone who contributed to the development and review of this project throughout Google Summer of Code 2026.
-
-*Add any specific acknowledgements here.*
+I would like to thank Sean Morrison, Daniel Rossberg, Divyanshu Garg, Himanshu Sekhar Nayak, and the whole BRL-CAD community for their guidance and support throughout this GSoC period. Their feedback at every step helped me understand the project better and stay on the right track. I am thankful for such a supportive and active open-source environment, and I have learned a lot throughout this GSoC journey. I hope to continue contributing to BRL-CAD beyond this GSoC period.
 
 ---
 
