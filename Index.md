@@ -35,7 +35,7 @@
 
 Arbalest is a Qt-based GUI application built on top of BRL-CAD. It lets engineers load 3D geometry (.g) models and run Verification and Validation (V&V) checks on them to find issues such as broken geometry, overlaps, or invalid regions.
  
-For this project, I worked on rebuilding Arbalest's V&V functionality as a plugin for the current version of Arbalest, which runs on MOOSE, and used BRL-CAD's `libged` library directly to run checks.
+For this project, I worked on rebuilding Arbalest's V&V functionality as a plugin for the current version of Arbalest, which runs on MOOSE, and used BRL-CAD's `libged` commands directly to run checks.
 
 ---
 
@@ -76,6 +76,7 @@ Once the plugin structure was in place, I worked on the V&V logic itself. The ol
 - Clicking on a result shows the test result details in a popup.
 - Viewport linking — clicking on an error highlights that geometry in the viewport, so you can directly see where the overlap or issue is.
 - Report generator — generates a report of the results in JSON, TXT, and CSV formats.
+
 ### Demonstration
  
 I tested the plugin on the `shipping_container.g` model.
@@ -87,7 +88,7 @@ I tested the plugin on the `shipping_container.g` model.
 ### Overall Workflow
 
 
-#### Demonstration
+### Demonstration
 
 #### Results Table
  
@@ -223,12 +224,9 @@ I would like to sincerely thank my mentors, the BRL-CAD community, and everyone 
 
 ## References
 
-* [BRL-CAD Official Website](https://brlcad.org/)
-* [BRL-CAD GitHub Organization](https://github.com/BRL-CAD)
-* [BRL-CAD GitHub Repository](https://github.com/BRL-CAD)
-* [BRL-CAD Documentation](https://brlcad.org/wiki/)
-* [Google Summer of Code](https://summerofcode.withgoogle.com/)
-* [Google Summer of Code Contributor Guide](https://developers.google.com/open-source/gsoc)
-* *Relevant BRL-CAD documentation*
-* *Relevant GitHub issues and pull requests*
-* *Other technical references used during the project*
+- [Arbalest](https://github.com/BRL-CAD/arbalest)
+- [Daily Logs](https://github.com/KanchanBorole/gsoc-2026-brlcad-vv/blob/main/Daily%20Logs.md)
+- [V&V Reference](https://brlcad.org/design/v&v/)
+- [Old V&V Prototype](https://github.com/isaacy13/arbalest)
+- [MOOSE](https://github.com/BRL-CAD/MOOSE)
+- [BRL-CAD](https://github.com/BRL-CAD/brlcad)
