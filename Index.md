@@ -198,7 +198,7 @@ The major contributions made during the project are summarized below.
 
 ## Conclusion
 
-*Summarize the work completed during the project, the major outcomes, and how the implementation addresses the objectives defined at the beginning of the project.*
+This project brings V&V functionality into Arbalest as a plugin, built on the current MOOSE-based Arbalest. The V&V plugin runs validation checks, shows grouped results with a summary bar, links results to the 3D viewport, and generates reports in JSON, TXT, and CSV formats. Overall, the work makes it possible to add V&V, and similar tools in the future, to Arbalest without changing its core code.
 
 ---
 
@@ -206,10 +206,10 @@ The major contributions made during the project are summarized below.
 
 The work completed during the project provides a foundation for further improvements. Some possible areas of future development include:
 
-* *Future improvement or extension.*
-* *Additional functionality that could be implemented.*
-* *Further integration or refinement.*
-* *Additional testing or optimization.*
+- **AI integration** — using AI to automatically detect geometry issues or suggest fixes, as a long-term possibility for the project.
+- **Per-object severity icons in 3D viewer** — a small color marker directly on the geometry object, so problem areas are visible without opening the results panel.
+- **Checking for more issues** — new validation checks beyond what currently exists, such as duplicate object names or invalid region IDs.
+- **Geometry repair workflow** — a way to fix common issues directly from the GUI instead of manually editing the model.
 
 ---
 
