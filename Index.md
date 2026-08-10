@@ -63,19 +63,10 @@ The implementation of the project involved several components and stages of deve
 
 ### Overall Workflow
 
-*Explain the overall workflow of the implementation and how the different components interact with each other.*
 
-### MOOSE Changes
+#### Demonstration
 
-*Describe the changes made to MOOSE and explain how they support the functionality implemented in Arbalest.*
 
-### GED Console
-
-*Describe the implementation of the GED console, including its architecture, command execution, command completion, object-name completion, command history, and other relevant functionality.*
-
-#### Console Demonstration
-
-*Explain the demonstrated functionality.*
 
 ![GED Console](assets/images/ged-console.png)
 
