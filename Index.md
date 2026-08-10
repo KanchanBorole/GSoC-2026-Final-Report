@@ -221,9 +221,11 @@ I would like to thank Sean Morrison, Daniel Rossberg, Divyanshu Garg, Himanshu S
 
 ## References
 
-- [Arbalest](https://github.com/BRL-CAD/arbalest)
-- [Daily Logs](https://github.com/KanchanBorole/gsoc-2026-brlcad-vv/blob/main/Daily%20Logs.md)
-- [V&V Reference](https://brlcad.org/design/v&v/)
-- [Old V&V Prototype](https://github.com/isaacy13/arbalest)
-- [MOOSE](https://github.com/BRL-CAD/MOOSE)
-- [BRL-CAD](https://github.com/BRL-CAD/brlcad)
+- BRL-CAD's Arbalest Repository: [https://github.com/BRL-CAD/arbalest](https://github.com/BRL-CAD/arbalest)
+- Daily Logs: [https://github.com/KanchanBorole/gsoc-2026-brlcad-vv/blob/main/Daily%20Logs.md](https://github.com/KanchanBorole/gsoc-2026-brlcad-vv/blob/main/Daily%20Logs.md)
+- V&V Reference(Old Fork): [https://brlcad.org/design/v&v/](https://brlcad.org/design/v&v/)
+- Old V&V Fork: [https://github.com/isaacy13/arbalest](https://github.com/isaacy13/arbalest)
+- BRL-CAD Repository: [https://github.com/BRL-CAD/brlcad](https://github.com/BRL-CAD/brlcad)
+- BRL-CAD's MOOSE Repository: [https://github.com/BRL-CAD/MOOSE](https://github.com/BRL-CAD/MOOSE)
+
+---
