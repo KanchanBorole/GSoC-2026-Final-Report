@@ -110,12 +110,15 @@ The report generator can export the validation results in JSON, TXT, and CSV for
 
 The V&V functionality was tested on the `shipping_container.g` model. Clicking the **V&V** option runs the V&V checks and displays the test results, which can be filtered by **Errors, Warnings, and Passed tests**. Clicking an error or test result visualizes the corresponding part of the model, and the Test Result Details popup provides additional information. We can also generate the report in three different formats.
 
+[assets_video_Shipping_container.webm](https://github.com/user-attachments/assets/d29c48f3-ac34-43f1-bb91-5f2dc2812a81)
 
 ![Shipping Container](assets/video/Shipping_container.webm)
 
 ### havoc.g
 
 The V&V functionality was tested on the `havoc.g` model. Clicking the **V&V** option runs the V&V checks and displays the test results, which can be filtered by **Errors, Warnings, and Passed tests**. Clicking an error or test result visualizes the corresponding part of the model, and the Test Result Details popup provides additional information. We can also generate the report in three different formats.
+
+[assets_video_havoc.webm](https://github.com/user-attachments/assets/0a18205f-1383-4342-a4e7-da04ff93926f)
 
 ![Havoc](assets/video/havoc.webm)
 
