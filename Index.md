@@ -78,23 +78,12 @@ Once the plugin structure was in place, I worked on the V&V logic itself. The ol
 - Report generator — generates a report of the results in JSON, TXT, and CSV formats.
 
 ### Demonstration
- 
-I tested the plugin on the `shipping_container.g` model.
- 
-[Add screenshots here — e.g. the V&V panel, the results table, and the details popup.]
- 
----
-
-### Overall Workflow
-
-
-### Demonstration
 
 #### Results Table
  
 The results table shows the V&V results, grouped by part using QTreeView, along with the summary bar showing error, warning, and passed counts.
  
-![Results Table](./screenshots/results-table.png)
+![Results Table](./assets/img/Verification&ValidationTable.png)
  
 #### Viewport Linking
  
