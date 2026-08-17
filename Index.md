@@ -193,7 +193,7 @@ The major contributions made during the project are summarized below.
         <tr>
             <td><a href="https://github.com/BRL-CAD/arbalest/pull/79"> BRL-CAD/arbalest/PR#79</a></td>
             <td>Added test result details popup</td>
-            <td></td>
+            <td>Added a test result details view that allows users to easily inspect passed tests and errors from the V&V results table. Users can right-click or click on a test result to view its complete details in a pop-up.</td>
         </tr>
         <tr>
             <td><a href="https://github.com/BRL-CAD/arbalest/pull/80"> BRL-CAD/arbalest/PR#80</a></td>
@@ -203,7 +203,7 @@ The major contributions made during the project are summarized below.
         <tr>
             <td><a href="https://github.com/BRL-CAD/arbalest/pull/81"> BRL-CAD/arbalest/PR#81</a></td>
             <td>Improve report generation and export logic</td>
-            <td></td>
+            <td>Implemented report export functionality that allows users to generate and export the report in three formats: JSON, TXT, and CSV. This makes it easy for users to save and use the generated report in their preferred format.</td>
         </tr>
         
   
@@ -232,7 +232,11 @@ The work completed during the project provides a foundation for further improvem
 
 ## Acknowledgements
 
-I would like to thank Sean Morrison, Daniel Rossberg, Divyanshu Garg, Himanshu Sekhar Nayak, and the whole BRL-CAD community for their guidance and support throughout this GSoC period. Their feedback at every step helped me understand the project better and stay on the right track. I am thankful for such a supportive and active open-source environment, and I have learned a lot throughout this GSoC journey. I hope to continue contributing to BRL-CAD beyond this GSoC period.
+I am grateful to Sean Morrison, Daniel Rossberg, Divyanshu Garg, Himanshu Sekhar Nayak, and the whole BRL-CAD community for their guidance and support throughout this GSoC period. 
+
+Their feedback at every step helped me understand the project better and stay on the right track. I am thankful for such a supportive and active open-source environment, and I have learned a lot throughout this GSoC journey. 
+
+I hope to continue contributing to BRL-CAD beyond this GSoC period.
 
 ---
 
