@@ -77,7 +77,7 @@ Once the plugin structure was in place, I worked on the V&V logic itself. The ol
 - Viewport linking — clicking on an error highlights that geometry in the viewport, so you can directly see where the overlap or issue is.
 - Report generator — generates a report of the results in JSON, TXT, and CSV formats.
 
-### Demonstration
+## Demonstration
 
 #### Results Table
  
@@ -100,44 +100,22 @@ The report generator can export the validation results in JSON, TXT, and CSV for
 - [Sample Report (CSV)](./assets/report/sample_report.csv)
 - [Sample Report (TXT)](./assets/report/sample_report.txt)
 - [Sample Report (JSON)](./assets/report/sample_report.json)
+
 #### Tested Models
  
 - Tested on `shipping_container.g`
 - Tested on `havoc.g`
-#### Dark Theme
- 
-The plugin also works correctly in Arbalest's dark theme.
- 
-![Dark Theme](./screenshots/dark-theme.png)
- 
----
 
+### shipping_container.g
 
-![GED Console](assets/images/ged-console.png)
-
-<video controls width="100%">
-  <source src="assets/videos/ged-console-demo.mp4" type="video/mp4">
-</video>
-
-### `shipping_container.g`
-
-*Describe how the implementation behaves when working with the `shipping_container.g` model.*
-
-![Shipping Container](assets/images/shipping-container.png)
-
-<video controls width="100%">
-  <source src="assets/videos/shipping-container-demo.mp4" type="video/mp4">
-</video>
+![Shipping Container](assets/video/Shipping_container.webm)
 
 ### `havoc.g`
 
 *Describe how the implementation behaves when working with the `havoc.g` model.*
 
-![Havoc](assets/images/havoc.png)
+![Havoc](assets/video/havoc.webm)
 
-<video controls width="100%">
-  <source src="assets/videos/havoc-demo.mp4" type="video/mp4">
-</video>
 
 ### GUI Improvements
 
