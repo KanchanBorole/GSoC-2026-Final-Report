@@ -6,6 +6,8 @@
 
 <hr>
 
+
+
 <img src="assets/images/gsoc-logo.png" alt="Google Summer of Code" width="150">
 &nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets/images/brlcad-logo.png" alt="BRL-CAD" width="150">
@@ -79,7 +81,7 @@ Once the plugin structure was in place, I worked on the V&V logic itself. The ol
 
 ## Demonstration
 
-#### Results Table
+### Results Table
  
 The results table shows the V&V results, grouped by part using QTreeView, along with the summary bar showing error, warning, and passed counts.
  
