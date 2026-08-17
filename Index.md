@@ -64,7 +64,7 @@ My focus for this project was to separate the V&V domain logic out of Arbalest's
  
 The first part of my work was designing a plugin architecture for Arbalest. This lets V&V functionality (and other tools in the future) be added on top of Arbalest without needing to modify Arbalest's core code directly, which is how the old prototype was built. This made the V&V code more modular and easier to maintain separately from Arbalest itself.
  
-### Moving from MGED to MOOSE (libged)
+### Moving from MGED to MOOSE
  
 Once the plugin structure was in place, I worked on the V&V logic itself. The old prototype ran its checks using MGED-based commands, which do not work with the current Arbalest. Since Arbalest now runs on MOOSE, I rewrote the checking logic to call `libged` commands directly, so the results (errors, warnings, geometry info) come straight from BRL-CAD's own geometry library.
  
@@ -169,24 +169,41 @@ The major contributions made during the project are summarized below.
 <table>
     <thead>
         <tr>
-            <th>Date of Merge</th>
             <th>Pull Request</th>
-            <th>Status</th>
             <th>Description</th>
+            <th>Work Done</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>June 8th, 2026</td>
-            <td><a href="https://github.com/BRL-CAD/arbalest/pull/76"> [BRL-CAD/arbalest/PR#76]</a></td>
-            <td>Merged</td>
+            <td><a href="https://github.com/BRL-CAD/arbalest/pull/76"> BRL-CAD/arbalest/PR#76</a></td>
             <td>Initial Geometry Verification & Validation UI/workflow integration.</td>
+            <td>V&V UI component integration under src/plugins/vv/ui/, V&V panel and dock widget integration, grouped validation result handling, validation summary handling, context menu integration, export support</td>
         </tr>
         <tr>
-            <td>July 1, 2026</td>
-            <td><a href="https://github.com/BRL-CAD/arbalest/pull/77"> [BRL-CAD/arbalest/PR#77]</a></td>
-            <td>Merged</td>
+            <td><a href="https://github.com/BRL-CAD/arbalest/pull/77"> BRL-CAD/arbalest/PR#77</a></td>
             <td>Add V&V plugin with MOOSE CommandString integration</td>
+            <td>This adds the Geometry V&V plugin using BRLCAD::CommandString::Parse() for running validation tests on BRL-CAD geometry. The test selection dialog is updated with grouped tests using getDoubleGroupedTestSuites(). Added getMemoryDatabase() in Document.h for writable database access.</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/BRL-CAD/arbalest/pull/78"> BRL-CAD/arbalest/PR#78</a></td>
+            <td>UI/UX Improvements for Geometry Verification & Validation</td>
+            <td>Added Dark Theme support for VV widget, Implemented Progress Bar, Improved Results Table and added UI icons, Fixed tab switching state handling.</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/BRL-CAD/arbalest/pull/79"> BRL-CAD/arbalest/PR#79</a></td>
+            <td>Added test result details popup</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/BRL-CAD/arbalest/pull/80"> BRL-CAD/arbalest/PR#80</a></td>
+            <td>Added Visual Linking Feature</td>
+            <td>Added a context menu action allowing users to right-click on a test/error item and instantly view the corresponding object/geometry in the 3D viewport.</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/BRL-CAD/arbalest/pull/81"> BRL-CAD/arbalest/PR#81</a></td>
+            <td>Improve report generation and export logic</td>
+            <td></td>
         </tr>
         
   
