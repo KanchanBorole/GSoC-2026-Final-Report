@@ -85,7 +85,7 @@ The results table shows the V&V results, grouped by part using QTreeView, along 
  
 ![Results Table](./assets/img/Verification&ValidationTable.png)
  
-#### Viewport Linking
+### Viewport Linking
  
 Clicking on a result highlights the exact geometry with the issue in the 3D viewport.
  
@@ -93,7 +93,7 @@ Clicking on a result highlights the exact geometry with the issue in the 3D view
 ![Viewport Linking](./assets/img/VisualizeObject2.png)
 
  
-#### Generated Reports
+### Generated Reports
  
 The report generator can export the validation results in JSON, TXT, and CSV formats.
  
@@ -101,29 +101,24 @@ The report generator can export the validation results in JSON, TXT, and CSV for
 - [Sample Report (TXT)](./assets/report/sample_report.txt)
 - [Sample Report (JSON)](./assets/report/sample_report.json)
 
-#### Tested Models
+### Tested Models
  
 - Tested on `shipping_container.g`
 - Tested on `havoc.g`
 
 ### shipping_container.g
 
+The V&V functionality was tested on the `shipping_container.g` model. Clicking the **V&V** option runs the V&V checks and displays the test results, which can be filtered by **Errors, Warnings, and Passed tests**. Clicking an error or test result visualizes the corresponding part of the model, and the Test Result Details popup provides additional information. We can also generate the report in three different formats.
+
+
 ![Shipping Container](assets/video/Shipping_container.webm)
 
-### `havoc.g`
+### havoc.g
 
-*Describe how the implementation behaves when working with the `havoc.g` model.*
+The V&V functionality was tested on the `havoc.g` model. Clicking the **V&V** option runs the V&V checks and displays the test results, which can be filtered by **Errors, Warnings, and Passed tests**. Clicking an error or test result visualizes the corresponding part of the model, and the Test Result Details popup provides additional information. We can also generate the report in three different formats.
 
 ![Havoc](assets/video/havoc.webm)
 
-
-### GUI Improvements
-
-*Describe the GUI-related improvements made during the project, including changes to styling, portability, themes, widgets, or other relevant areas.*
-
-### Testing and Validation
-
-*Describe how the implementation was tested, which models and scenarios were used, and how the resulting functionality was validated.*
 
 ---
 
