@@ -89,13 +89,6 @@ Clicking on a result highlights the exact geometry with the issue in the 3D view
 ![Viewport Linking](./assets/img/VisualizeObject2.png)
 
  
-### Generated Reports
- 
-The report generator can export the validation results in JSON, TXT, and CSV formats.
- 
-- [Sample Report (CSV)](./assets/report/sample_report.csv)
-- [Sample Report (TXT)](./assets/report/sample_report.txt)
-- [Sample Report (JSON)](./assets/report/sample_report.json)
 
 ### Tested Models
 
@@ -115,6 +108,13 @@ The V&V functionality was tested on the `havoc.g` model. Clicking the **V&V** op
 [assets_video_havoc.webm](https://github.com/user-attachments/assets/0a18205f-1383-4342-a4e7-da04ff93926f)
 
 
+### Generated Reports
+ 
+The report generator can export the validation results in JSON, TXT, and CSV formats.
+ 
+- [Sample Report (CSV)](./assets/report/sample_report.csv)
+- [Sample Report (TXT)](./assets/report/sample_report.txt)
+- [Sample Report (JSON)](./assets/report/sample_report.json)
 
 ---
 
