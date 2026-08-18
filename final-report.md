@@ -175,7 +175,7 @@ The contributions made during the project are summarized below.
 
 ## Conclusion
 
-This project brings V&V functionality into Arbalest as a plugin, built on the current MOOSE-based Arbalest. The V&V plugin runs validation checks, shows grouped results with a summary bar, show error object/geometry in the 3D viewport, and generates report. It helps validate models through checks such as duplicate IDs, overlapping regions, null regions, solid outside of region, Nested regions, and other validation checks, making it easier to identify and review issues in the model.
+This project brings V&V functionality into Arbalest as a plugin, built on the current MOOSE-based Arbalest. The V&V plugin runs validation checks, shows grouped results with a summary bar, show error object/geometry in the 3D viewport, and generates report. It helps validate models through checks such as duplicate IDs, overlapping regions, null regions, solid outside of region, nested regions, and other validation checks, making it easier to identify and review issues in the model.
 
 ---
 
