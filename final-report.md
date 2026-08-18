@@ -57,7 +57,13 @@ The first part of my work was designing a plugin architecture for Arbalest. This
 ### Moving from MGED to MOOSE
  
 Once the plugin structure was in place and UI Integration done, I worked on the V&V logic. The old prototype ran its checks using `libged` commands and uses mged, which do not work with the current Arbalest. Since Arbalest now runs on MOOSE, I rewrote the checking logic to call `libged` commands and get the results and then added features like visual linking, more info popup, etc.
- 
+
+### Verification & Validation Workflow
+
+The validation workflow begins after loading a model geometry into Arbalest. The user can select the required validation checks according to their needs and run them. Once the checks are completed, the results are displayed in a table along with a summary showing the number of errors, warnings, and passed checks.
+
+The results can be filtered by category, allowing users to view all results or only errors, warnings, or passed checks. By selecting a particular result, users can visualize the corresponding geometry or object in the 3D viewport and view additional information about that result. The validation results can also be generated as a report for further review and documentation.
+
 ### Features of the V&V Plugin
  
 - Runs V&V validation checks on a loaded model and shows the results in a table.
