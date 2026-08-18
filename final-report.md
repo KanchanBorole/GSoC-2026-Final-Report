@@ -56,7 +56,7 @@ The first part of my work was designing a plugin architecture for Arbalest. This
  
 ### Moving from MGED to MOOSE
  
-Once the plugin structure was in place and UI Integration done, I worked on the V&V logic. The old prototype ran its checks using `libged` commands and uses mged, which do not work with the current Arbalest. Since Arbalest now runs on MOOSE, I rewrote the checking logic to call `libged` commands and get the results and then added features like visual linking, more info popup, etc.
+Once the plugin structure was in place and UI Integration done, I worked on the V&V logic. The old prototype was based on MGED, which does not work with the current Arbalest. Since Arbalest now runs on MOOSE, I adapted the V&V checking logic to the current architecture and used `libged` commands to run the checks and retrieve their results and then added features like visual linking, more info popup, etc.
 
 ### Verification & Validation Workflow
 
@@ -175,7 +175,7 @@ The contributions made during the project are summarized below.
 
 ## Conclusion
 
-This project brings V&V functionality into Arbalest as a plugin, built on the current MOOSE-based Arbalest. The V&V plugin runs validation checks, shows grouped results with a summary bar, show error object/geometry in the 3D viewport, and generates report. It helps validate models through checks such as duplicate IDs, overlapping regions, null regions, solid outside of region, nested regions, and other validation checks, making it easier to identify and review issues in the model.
+This project brings V&V functionality into Arbalest as a plugin, built on the current MOOSE-based Arbalest. The V&V plugin runs validation checks, shows grouped results with a summary bar, shows error object/geometry in the 3D viewport, and generates reports. It helps validate models through checks such as duplicate IDs, overlapping regions, null regions, solids outside of regions, nested regions, and other validation checks, making it easier to identify and review issues in the model.
 
 ---
 
