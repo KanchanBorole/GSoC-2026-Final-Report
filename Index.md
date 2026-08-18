@@ -4,9 +4,10 @@
 
 </div>
 
+---
 ## Project
 
-**Geometry Verification and Validation in GUI Qt**
+**Geometry Verification and Validation GUI in Qt**
 
 ## Organization
 
@@ -51,11 +52,11 @@ My focus for this project was to separate the V&V domain logic out of Arbalest's
 
 ### Plugin Architecture
  
-The first part of my work was designing a plugin architecture for Arbalest. This lets V&V functionality (and other tools in the future) be added on top of Arbalest without needing to modify Arbalest's core code directly, which is how the old prototype was built. This made the V&V code more modular and easier to maintain separately from Arbalest itself.
+The first part of my work was designing a plugin architecture for Arbalest. This lets V&V functionality (and other tools in the future) be added on top of Arbalest without needing to modify Arbalest's core code directly. This made the V&V code more modular and easier to maintain separately from Arbalest itself.
  
 ### Moving from MGED to MOOSE
  
-Once the plugin structure was in place, I worked on the V&V logic itself. The old prototype ran its checks using MGED-based commands, which do not work with the current Arbalest. Since Arbalest now runs on MOOSE, I rewrote the checking logic to call `libged` commands directly, so the results (errors, warnings, geometry info) come straight from BRL-CAD's own geometry library.
+Once the plugin structure was in place and UI Integration done, I worked on the V&V logic. The old prototype ran its checks using `libged` commands and uses mged, which do not work with the current Arbalest. Since Arbalest now runs on MOOSE, I rewrote the checking logic to call `libged` commands and get the results and then added features like visual linking, more info popup, etc.
  
 ### Features of the V&V Plugin
  
@@ -91,11 +92,9 @@ The report generator can export the validation results in JSON, TXT, and CSV for
 - [Sample Report (JSON)](./assets/report/sample_report.json)
 
 ### Tested Models
- 
-- Tested on `shipping_container.g`
-- Tested on `havoc.g`
 
-### shipping_container.g
+
+### `shipping_container.g`
 
 The V&V functionality was tested on the `shipping_container.g` model. Clicking the **V&V** option runs the V&V checks and displays the test results, which can be filtered by **Errors, Warnings, and Passed tests**. Clicking an error or test result visualizes the corresponding part of the model, and the Test Result Details popup provides additional information. We can also generate the report in three different formats.
 
@@ -103,7 +102,7 @@ The V&V functionality was tested on the `shipping_container.g` model. Clicking t
 
 
 
-### havoc.g
+### `havoc.g`
 
 The V&V functionality was tested on the `havoc.g` model. Clicking the **V&V** option runs the V&V checks and displays the test results, which can be filtered by **Errors, Warnings, and Passed tests**. Clicking an error or test result visualizes the corresponding part of the model, and the Test Result Details popup provides additional information. We can also generate the report in three different formats.
 
@@ -115,9 +114,9 @@ The V&V functionality was tested on the `havoc.g` model. Clicking the **V&V** op
 
 ## Contributions
 
-The major contributions made during the project are summarized below.
+The contributions made during the project are summarized below.
 
-#### Pull Requests
+
 
 <div align="center">
 
@@ -170,7 +169,7 @@ The major contributions made during the project are summarized below.
 
 ## Conclusion
 
-This project brings V&V functionality into Arbalest as a plugin, built on the current MOOSE-based Arbalest. The V&V plugin runs validation checks, shows grouped results with a summary bar, links results to the 3D viewport, and generates reports in JSON, TXT, and CSV formats. Overall, the work makes it possible to add V&V, and similar tools in the future, to Arbalest without changing its core code.
+This project brings V&V functionality into Arbalest as a plugin, built on the current MOOSE-based Arbalest. The V&V plugin runs validation checks, shows grouped results with a summary bar, show error object/geometry in the 3D viewport, and generates report. It helps validate models through checks such as duplicate IDs, overlapping regions, null regions, solid outside of region, Nested regions, and other validation checks, making it easier to identify and review issues in the model.
 
 ---
 
@@ -203,5 +202,6 @@ I hope to continue contributing to BRL-CAD beyond this GSoC period.
 - Old V&V Fork: [https://github.com/isaacy13/arbalest](https://github.com/isaacy13/arbalest)
 - BRL-CAD Repository: [https://github.com/BRL-CAD/brlcad](https://github.com/BRL-CAD/brlcad)
 - BRL-CAD's MOOSE Repository: [https://github.com/BRL-CAD/MOOSE](https://github.com/BRL-CAD/MOOSE)
+- Additional Information: [https://github.com/KanchanBorole/gsoc-2026-brlcad-vv](https://github.com/KanchanBorole/gsoc-2026-brlcad-vv)
 
 ---
