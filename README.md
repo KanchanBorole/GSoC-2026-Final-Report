@@ -78,15 +78,19 @@ The results can be filtered by category, allowing users to view all results or o
 ### Results Table
  
 The results table shows the V&V results, grouped by part using QTreeView, along with the summary bar showing error, warning, and passed counts.
- 
-![Results Table](./assets/img/Verification&ValidationTable.png)
+
+ <img width="1209" height="449" alt="Verification ValidationTable" src="https://github.com/user-attachments/assets/89ee018f-368e-4ca3-aa51-cb4c04af63c0" />
+
  
 ### Viewport Linking
  
 Clicking on a result highlights the exact geometry with the issue in the 3D viewport.
- 
-![Viewport Linking](./assets/img/VisualizeObject1.png)
-![Viewport Linking](./assets/img/VisualizeObject2.png)
+
+<img width="1920" height="1080" alt="VisualizeObject1" src="https://github.com/user-attachments/assets/eb700b46-b22b-4eb1-b4ae-b55642737a47" />
+<img width="1920" height="1080" alt="VisualizeObject2" src="https://github.com/user-attachments/assets/137fb829-5e00-41d3-a0dd-8b7eff755c75" />
+
+
+
 
  
 
@@ -112,9 +116,19 @@ The same V&V workflow was also tested on the `havoc.g` model. The video below de
  
 The report generator can export the validation results in JSON, TXT, and CSV formats.
  
-- [Sample Report (CSV)](./assets/report/sample_report.csv)
-- [Sample Report (TXT)](./assets/report/sample_report.txt)
-- [Sample Report (JSON)](./assets/report/sample_report.json)
+[sample_report.csv](https://github.com/user-attachments/files/31176270/sample_report.csv)
+
+
+[sample_report.txt](https://github.com/user-attachments/files/31176292/sample_report.txt)
+
+
+[sample_report.json](https://github.com/user-attachments/files/31176328/sample_report.json)
+
+
+
+
+
+
 
 ---
 
