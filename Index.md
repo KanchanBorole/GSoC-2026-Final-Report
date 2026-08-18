@@ -1,19 +1,6 @@
 <div align="center">
 
-# Google Summer of Code 2026
-
-## Final Project Report
-
-<hr>
-
-
-
-<img src="assets/images/gsoc-logo.png" alt="Google Summer of Code" width="150">
-&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/images/brlcad-logo.png" alt="BRL-CAD" width="150">
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<hr>
+# Google Summer of Code 2026 -  Final Project Report
 
 </div>
 
@@ -114,7 +101,7 @@ The V&V functionality was tested on the `shipping_container.g` model. Clicking t
 
 [assets_video_Shipping_container.webm](https://github.com/user-attachments/assets/d29c48f3-ac34-43f1-bb91-5f2dc2812a81)
 
-![Shipping Container](assets/video/Shipping_container.webm)
+
 
 ### havoc.g
 
@@ -122,7 +109,6 @@ The V&V functionality was tested on the `havoc.g` model. Clicking the **V&V** op
 
 [assets_video_havoc.webm](https://github.com/user-attachments/assets/0a18205f-1383-4342-a4e7-da04ff93926f)
 
-![Havoc](assets/video/havoc.webm)
 
 
 ---
