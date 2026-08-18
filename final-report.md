@@ -103,7 +103,7 @@ The V&V functionality was tested on the `shipping_container.g` model. Clicking t
 
 ### `havoc.g`
 
-The V&V functionality was tested on the `havoc.g` model. Clicking the **V&V** option runs the V&V checks and displays the test results, which can be filtered by **Errors, Warnings, and Passed tests**. Clicking an error or test result visualizes the corresponding part of the model, and the Test Result Details popup provides additional information. We can also generate the report in three different formats.
+The same V&V workflow was also tested on the `havoc.g` model. The video below demonstrates the validation process and result visualization on this model.
 
 [assets_video_havoc.webm](https://github.com/user-attachments/assets/0a18205f-1383-4342-a4e7-da04ff93926f)
 
