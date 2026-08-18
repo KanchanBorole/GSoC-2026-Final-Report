@@ -62,7 +62,7 @@ Once the plugin structure was in place and UI Integration done, I worked on the 
 
 The validation workflow begins after loading a model geometry into Arbalest. The user can select the required validation checks according to their needs and run them. Once the checks are completed, the results are displayed in a table along with a summary showing the number of errors, warnings, and passed checks.
 
-The results can be filtered by category, allowing users to view all results or only errors, warnings, or passed checks. By selecting a particular result, users can visualize the corresponding geometry or object in the 3D viewport and view additional information about that result. The validation results can also be generated as a report for further review and documentation.
+The results can be filtered by category, allowing users to view all results or only errors, warnings, or passed checks. By selecting a particular result, user can visualize the corresponding geometry or object in the 3D viewport and view additional information about that result. Finally, the validation results can be generated as a report, which can be used to review the identified issues and assist in correcting the model geometry.
 
 ### Features of the V&V Plugin
  
